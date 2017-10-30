@@ -1,17 +1,17 @@
 def daynumtoname(num):
     if num == 0:
         return "Sunday"
-    elif num == 1:
+    if num == 1:
         return "Monday"
-    elif num == 2:
+    if num == 2:
         return "Tuesday"
-    elif num == 3:
+    if num == 3:
         return "Wednesday"
-    elif  4:
+    if num == 4:
         return "Thursday"
-    elif  5:
+    if num ==  5:
         return "Friday"
-    elif  6:
+    if num == 6:
         return "Saturday"
     else:
         return "Please enter an integer between 0 and 6."
